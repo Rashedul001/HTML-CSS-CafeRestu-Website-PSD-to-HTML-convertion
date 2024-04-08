@@ -1,0 +1,249 @@
+@media only screen and (max-width: 1279px) {
+    .container {
+        width: 100%;
+    }
+
+    nav {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .heading .arow {
+
+        top: 80%;
+        left: 46%;
+    }
+
+    .feedback .down {
+        left: 39%;
+    }
+
+    .chef-iteam {
+        gap: 30px;
+    }
+
+    .possition-section {
+        padding-left: 68px;
+        padding-right: 68px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hmgr-menu {
+        display: block;
+        background-color: #ee9d34;
+        padding: 6px 12px;
+        border-radius: 5px;
+    }
+
+    .hmgr-menu button {
+        background-color: #ee9d34;
+        padding: 6px 12px;
+        border-radius: 5px;
+    }
+
+    .heading {
+        padding-top: 75px;
+        padding-bottom: 100px;
+    }
+
+    .heading h2 {
+        font-size: 53px;
+    }
+
+    .heading h1 {
+        font-size: 41.88px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .heading .arow {
+        top: 80%;
+        left: 43%;
+    }
+
+    .cuisine-heading h2 {
+        font-size: 25px;
+        padding-top: 45px;
+    }
+
+    .cuisine-iteam {
+        width: 100%;
+        display: flex;
+        gap: 36px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        padding-left: 68px;
+        padding-right: 68px;
+        flex-direction: column;
+    }
+
+    .cream,
+    .beaf {
+        display: none;
+    }
+
+    .discover-heading {
+        font-size: 25px;
+    }
+
+    .discover-section .image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .discover {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .spring {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .chef-heading h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .chef-iteam {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 68px;
+        padding-right: 68px;
+        flex-direction: column;
+    }
+
+    .mark,
+    .steven {
+        display: none;
+    }
+
+    .restu-menu-heading h2 {
+        font-size: 45px;
+    }
+
+    .restu-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    .our-restu-menu {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .feedback-heading h2 {
+        font-size: 35px;
+    }
+
+    .feedback-gelary {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 35px;
+        margin-bottom: 0px;
+    }
+
+    .customar-feedback {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .possition-section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .possition-gelary {
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    .possition-iteam {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .possition :nth-child(2) {
+        font-size: 13px;
+    }
+
+    footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footer-menu {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .restu-menu-heading h2 {
+        font-size: 25px;
+    }
+
+    .restu-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        gap: 30px;
+    }
+
+    .our-restu-menu {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .feedback-heading h2 {
+        font-size: 35px;
+    }
+
+    .feedback-gelary {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 0px;
+    }
+
+    .customar-feedback {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .possition-section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footer-menu {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+    footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}

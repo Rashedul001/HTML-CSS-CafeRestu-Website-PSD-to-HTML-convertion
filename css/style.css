@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* =========================== Common css start ======================== */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0px 55px 0px 55px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+:root {
+    --primary-color: #000000;
+    --secoendry-color: #ffffff;
+    --third-color: #ee9d34;
+}
+
+/* =========== Header css stsrt ========= */
+header {
+    background-color: var(--secoendry-color);
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.logo-site {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.cafe {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cafe .span-cafe {
+    color: var(--third-color);
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    margin-left: 30px;
+    padding: 5px 15px 5px 15px;
+    border: none;
+}
+
+.menu ul :nth-child(6) {
+    background-color: var(--third-color);
+    border-radius: 5px;
+}
+
+.menu ul li:hover {
+    box-shadow: 0px 2px 0px 0px var(--third-color);
+}
+
+.menu ul :nth-child(6):hover {
+    background-color: transparent;
+    box-shadow: 0px 0px 2px 0px var(--third-color);
+}
+
+.menu .home-menu {
+    box-shadow: 0px 2px 0px 0px var(--third-color);
+}
+
+.menu ul li a {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.hmgr-menu {
+    display: none;
+}
+
+.hmgr-menu button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* ========= Hero section start ========== */
+
+.hero-section {
+    width: 100%;
+    background-image: url(../images/h.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.overlay {
+    background: #0000009c;
+}
+
+.heading {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.heading h2 {
+    color: var(--third-color);
+    font-family: "Corinthia", cursive;
+    font-weight: 400;
+    font-size: 90px;
+}
+
+.heading h1 {
+    color: var(--secoendry-color);
+    font-size: 68.88px;
+    font-weight: 600;
+}
+
+.heading p {
+    color: var(--secoendry-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.heading .arow {
+    font-size: 60px;
+    position: absolute;
+    top: 565px;
+    left: 537px;
+}
+
+/* ====== Cuisine section start ======= */
+.cuisine-section {
+    background-color: #ffffff;
+    padding-bottom: 68px;
+}
+
+.cuisine-heading {
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.cuisine-heading .image img {
+    width: 232px;
+    height: 16px;
+    margin: 17px 0px 17px 0px;
+}
+
+.cuisine-heading h2 {
+    font-size: 50px;
+    padding-top: 68px;
+}
+
+.cuisine-heading p {
+    font-size: 12px;
+}
+
+.cuisine-iteam {
+    width: 100%;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.cuisine {
+    text-align: center;
+    padding: 10px;
+}
+
+.cuisine .image {
+    width: 100%;
+    height: 100%;
+}
+
+.cuisine img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cuisine h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cuisine p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.steak {
+    box-shadow: 0px 0px 29px -10px black;
+    border-radius: 50px;
+}
+
+.slide-icon {
+    position: relative;
+}
+
+.slide-icon .arow-btn p i {
+    font-size: 22.88px;
+    padding-top: 3px;
+}
+
+.slide-icon .arow-btn p {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--third-color);
+    text-align: center;
+}
+
+.icon-left {
+    position: absolute;
+    top: 50%;
+}
+
+.icon-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+/* ======== Discover section start ========= */
+.discover-section {
+    background-image: url(../images/Discover-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 68px;
+}
+
+.discover-heading {
+    color: var(--secoendry-color);
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    font-size: 50px;
+}
+
+.discover-section .image {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.discover-section .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.discover {
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.spring {
+    display: flex;
+    gap: 238px;
+}
+
+.spring-left {
+    width: 647px;
+}
+
+.spring-left p {
+    color: var(--third-color);
+    font-size: 11px;
+}
+
+.spring-left h3 {
+    color: var(--secoendry-color);
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.spring-right {
+    color: var(--secoendry-color);
+    font-size: 13px;
+}
+
+/* ========== Chief section start ========== */
+
+.cheif-section {
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.chef-heading {
+    text-align: center;
+    padding-bottom: 68px;
+}
+
+.chef-heading h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.chef-heading .image img {
+    width: 232px;
+    height: 16px;
+    margin-bottom: 15px;
+}
+
+.chef-heading p {
+    font-size: 12px;
+}
+
+.chef-iteam {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 68px;
+    padding-right: 68px;
+    gap: 30px;
+}
+
+.chief .image {
+    width: 100%;
+    height: 100%;
+}
+
+.chief .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.chief {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: var(--secoendry-color);
+}
+
+.name h2 {
+    margin-bottom: 10px;
+}
+
+.name a {
+    color: var(--secoendry-color);
+}
+
+/* ====== Menu section start ======== */
+
+.restu-menu-section {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    background-color: #ffffff
+}
+
+.our-restu-menu {
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.restu-menu-heading {
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.restu-menu-heading h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.restu-menu-heading p {
+    font-size: 12px;
+}
+
+.restu-menu-heading .image {
+    margin-bottom: 15px;
+}
+
+.restu-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.restu-menu-iteam .image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.restu-menu-iteam {
+    border: 2px solid #c3c3c3;
+    border-radius: 12px;
+}
+
+.restu-menu-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.restu-menu-title .location p {
+    font-size: 16px;
+}
+
+.restu-menu-title .price p {
+    font-size: 16px;
+    color: var(--third-color);
+}
+
+.restu-menu-title .dot-restu-menu p i {
+    font-size: 14.49px;
+}
+
+.restu-menu-iteam-description p {
+    font-size: 9px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* ======== Feedback section start ======= */
+
+.feedback-section {
+    background-image: url(../images/feedback-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 68px;
+}
+
+.customar-feedback {
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.feedback-heading h2 {
+    font-size: 50px;
+    color: var(--secoendry-color);
+    padding-bottom: 68px;
+    padding-top: 68px;
+    text-align: center;
+}
+
+/* .feedback-gelary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 68px;
+} */
+
+.feedback-gelary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    margin-bottom: 68px;
+}
+
+.feedback-1 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.feedback {
+    background-color: var(--secoendry-color);
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    border-radius: 22px;
+}
+
+.feedback p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.feedback :nth-child(2) {
+    font-size: 12px;
+}
+
+.feedback h2 {
+    font-size: 16px;
+}
+
+.feedback .down {
+    position: absolute;
+    bottom: -41px;
+    left: 43%;
+}
+
+.feedback :nth-child(5) i {
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.feedback-image-gelary {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+/* ======= possition section start ====== */
+
+.possition-section {
+    background-color: var(--secoendry-color);
+}
+
+.possition-iteam {
+    padding-left: 68px;
+    padding-right: 68px;
+    background-image: url(../images/Progress-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.possition-gelary {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.possition-gelary .possition {
+    padding-top: 50px;
+    padding-bottom: 46px;
+}
+
+.possition :nth-child(1) {
+    color: var(--secoendry-color);
+    margin-bottom: 8px;
+}
+
+.possition :nth-child(2) {
+    color: var(--third-color);
+}
+
+.possition {
+    text-align: center;
+}
+
+/* ======= Footer section stsrt =======  */
+
+.footer-section {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    background-color: var(--primary-color);
+}
+
+footer {
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+/* .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+} */
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 50px;
+}
+
+.footer-menu-iteam h2 {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: var(--third-color);
+}
+
+.footer-menu-iteam p,
+.footer-menu-iteam ul li a {
+    color: #757575;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.footer-menu-iteam {
+    margin-top: 50px;
+}
+
+.logo-site .cafe span {
+    color: var(--third-color);
+}
+
+.logo-site .cafe .restu {
+    color: var(--secoendry-color);
+}
+
+.footer-menu-iteam .logo-site .logo a i {
+    color: var(--secoendry-color);
+    font-size: 25px;
+    padding-right: 6px;
+}
+
+/* ====================== Footer section end ===================  */
