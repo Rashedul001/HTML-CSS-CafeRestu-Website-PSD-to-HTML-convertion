@@ -256,6 +256,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center center;
     padding-bottom: 68px;
+    overflow: hidden;
 }
 
 .discover-heading {
